@@ -7,18 +7,19 @@ export const AppText={
     hello:'Hello,',
     Iam:'I am ',
     RahulSanap:'Rahul Sanap',
-    aboutMeDescripion:'I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Fronted  and Back-end Development',
+    aboutMeDescripion:'I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Front-end  and Back-end Development',
     Skills:'Skills & ',
     Experties:'Experties',
     UIUXDesigner:'UI/UX Designer',
-    BackendDeveloper:'Bckend Dev',
-    FrontedDeveloper:'Fronted Dev',
+    BackendDeveloper:'Backend Dev',
+    FrontedDeveloper:'Frontend Dev',
     Portfolio:'Portfolio',
     Creative:'My Creative ',
     CompaniesI:'Companies I ',
     WorkedFor:'Worked For',
     Contact:'Contact ',
-    Us:'Us'
+    Us:'Us',
+    copywriteText:'Copyright by Rahul Sanap @2023'
 
 }
 
@@ -32,7 +33,7 @@ export const aboutSection=[
     {
         id:2,
         image:'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
-        title:'Fronted Developer',
+        title:'Frontend Developer',
         desc:'Expert in UI/UX designing software like figma'
     },
     {

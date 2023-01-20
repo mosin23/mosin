@@ -1,5 +1,5 @@
 import React from 'react'
-import { socialNetwork } from '../Constants'
+import { AppText, socialNetwork } from '../Constants'
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
         ))}
         </div>
-        <h1 className='text-gray-500 text-[15px] mt-4'>Copywrite by Rahul Sanap @ 2023</h1>
+        <h1 className='text-gray-500 text-[15px] mt-4'>{AppText.copywriteText}</h1>
     </div>
   )
 }
