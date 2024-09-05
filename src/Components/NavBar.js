@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { logo } from "./../assets";
+import mk from '../assets/mk.png'
 import "./NavBar.css";
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="w-full p-[10px] flex justify-between items-center">
-      <img src={logo} className="h-[20px]" />
+      <img src={mk} className="h-[60px] drop-shadow-md hover:drop-shadow-xl"  onClick={()=>{window.location.reload()}}/>
       <div>
         <ul className="hidden md:flex">
           <li className="menuItem hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">
@@ -18,7 +18,7 @@ const NavBar = () => {
             <a href="/#skills">Skills</a>
           </li>
           <li className="menuItem hover:scale-110">
-            <a href="/#companies">Companies</a>
+            <a href="/#certifications">Certifications</a>
           </li>
           <li className="menuItem hover:scale-110">
             <a href="/#contact">Contact Us</a>
@@ -47,7 +47,7 @@ const NavBar = () => {
             <a href="/#skills">Skills</a>
           </li>
           <li className="menuItem p-3 hover:scale-110">
-            <a href="/#companies">Companies</a>
+            <a href="/#certifications">Certifications</a>
           </li>
           <li className="menuItem p-3 hover:scale-110">
             <a href="/#contact">Contact Us</a>

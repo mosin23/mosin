@@ -7,7 +7,7 @@ const Footer = () => {
      <div className='flex gap-4'>
         {socialNetwork.map((item,index)=>(
             <div>
-                <img src={item.logo} className="w-[40px]"/>
+                <img src={item.logo} className="w-[40px] color:gray" onClick={()=>{window.location.href=item.url}}/>
             </div>
         ))}
         </div>

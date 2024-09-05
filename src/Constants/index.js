@@ -1,199 +1,225 @@
-import { aflacLogo, android, angular, cognizantLogo,
-     facebook, firebase, instagram, ionic, linkdin, mysql,
-      nodejs,
-      react, typescript, wellsLogo, wiuLogo, youtube } from "../assets"
+import {
+     C, boot, java, linkdin, mysql,
+     nodejs,
+     react,
+     springboot,
+     python,
+     mongodb,
+     html,
+     github, aws, 
+     gcloud,
+     postman,ex,instagram,
+     klu} from "../assets"
 
 export const AppText={
-    hello:'Hello,',
-    Iam:'I am ',
-    RahulSanap:'Rahul Sanap',
-    aboutMeDescripion:'I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Front-end  and Back-end Development',
-    Skills:'Skills & ',
-    Experties:'Experties',
-    UIUXDesigner:'UI/UX Designer',
-    BackendDeveloper:'Backend Dev',
-    FrontedDeveloper:'Frontend Dev',
-    Portfolio:'Portfolio',
-    Creative:'My Creative ',
-    CompaniesI:'Companies I ',
-    WorkedFor:'Worked For',
-    Contact:'Contact ',
-    Us:'Us',
-    copywriteText:'Copyright by Rahul Sanap @2023'
+   hello:'Hello,',
+   Iam:'I am',
+   RahulSanap:'Mosin Khan',
+   aboutMeDescripion:'I am an Aspiring software developer and final-year student at KL University with a strong focus on Java and MERN Stack. Experienced in building dynamic web applications and exploring cloud computing. Passionate about development and eager to contribute to innovative projects. Strong team player with excellent communication skills. Lets connect and collaborate on impactful technology solutions!',
+   Skills:'Skills & ',
+   Experties:'Expertise',
+   UIUXDesigner:'MERN Stack Developer',
+   BackendDeveloper:'Java Developer',
+   FrontedDeveloper:'',
+   Portfolio:'Portfolio',
+   Creative:'My ',
+   CompaniesI:'Global Certifications',
+   Contact:'Contact ',
+   Us:'Us',
+   copywriteText:'Copyright by Mosin Khan @2024'
 
 }
 
-export const aboutSection=[
+export const Certificates=[
     {
-        id:1,
-        image:'https://img.freepik.com/premium-vector/ui-ux-programmer-flat-design-vector-illustration-business-information-team-sharing-ideas-with-designer-coding-interface-software-app-development_2175-1809.jpg?w=2000',
-        title:'UI/UX Designer',
-        desc:'Expert in UI/UX designing software like figma'
+        name:'Aws Certified Cloud Practitioner',
+        imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xQcwKitRgXfqdi34DYlocPSEXD2G2zZipg&s',
+        url:'7738933adccb417692cad65f30447477',
+        exp:'2027-01-29',
+        link:'https://cp.certmetrics.com/amazon/en/public/verify/credential/7738933adccb417692cad65f30447477'
     },
     {
-        id:2,
-        image:'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
-        title:'Frontend Developer',
-        desc:'Expert in UI/UX designing software like figma'
-    },
-    {
-        id:3,
-        image:'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
-        title:'Back-end Developer',
-        desc:'Expert in UI/UX designing software like figma'
+        name:'Essentials RPA Professional',
+        imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQrucnIA6sBFm-YmCK02ktQPzs4YmnjcszIw&s',
+        url:'AAESS-A360 106676701',
+        link:''
     }
+    
+]
+
+
+
+
+export const aboutSection=[
+   {
+       id:1,
+       image:'https://miro.medium.com/v2/resize:fit:678/0*kxPYwfJmkXZ3iCWy.png',
+       title:'Mern Stack Developer',
+       desc:'I create full-stack web solutions using the MERN stack, focusing on both front-end and back-end development.'
+   },
+   {
+       id:2,
+       image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxW-6OGQy5S5JVwY3dzf44DO3FZyeDyuJtQ&s',
+        title:'Java Full Stack Developer',
+       desc:'Java Full Stack Developer with expertise in crafting dynamic and responsive web applications.'
+   },
+   {
+       id:3,
+       image:'https://www.device42.com/blog/wp-content/uploads/2023/03/14_01edge-cloud-computing.jpg',
+       title:'Cloud Practitioner',
+       desc:'I am a Cloud Practitioner focused on delivering scalable, secure, and efficient cloud solutions.'
+
+   }
 ]
 
 export const skillsList=[
-    {
-        id:1,
-        icon:angular
-    },
-    {
-        id:1,
-        icon:react
-    },
-    {
-        id:1,
-        icon:typescript
-    },
-    {
-        id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
-        icon:ionic
-    },
-    {
-        id:1,
-        icon:mysql
-    },
-    {
-        id:1,
-        icon:react
-    },
-    {
-        id:1,
-        icon:typescript
-    },
-    {
-        id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
-        icon:nodejs
-    },
+   {
+       id:1,
+       icon:C
+   },
+   {
+       id:1,
+       icon:java
+   },
+   {
+       id:1,
+       icon:react
+   },
+   {
+       id:1,
+       icon:nodejs
+   },
+   {
+       id:1,
+       icon:springboot
+   },
+   {
+       id:1,
+       icon:python
+   },
+   {
+       id:1,
+       icon:mysql
+   },
+   {
+       id:1,
+       icon:mongodb
+   },
+   {
+       id:1,
+       icon:html
+   },
+   {
+       id:1,
+       icon:github
+   },
+   {
+       id:1,
+       icon:boot
+   },
+   {
+       id:1,
+       icon:aws
+   },
+   {
+    id:1,
+    icon:gcloud
+   },
+   {
+    id:1,
+    icon:postman
+   },
+   {
+    id:1,
+    icon:ex
+   }
 
 ]
 
 export const workDetail=[
-    { 
-        id:1,
-        year:'2021',
-        compnayName:'Wells Fargo',
-        position:'Lead Software Developer'
-    },
-    { 
-        id:1,
-        year:'2020',
-        compnayName:'Empowered Benefits',
-        position:'Full Stack Developer'
-    },
-    { 
-        id:1,
-        year:'2018',
-        compnayName:'Western Illionois University',
-        position:'Full Stack Developer'
-    },
-    { 
-        id:1,
-        year:'2016',
-        compnayName:'Cognizant',
-        position:'Programmer Analyst'
-    },
+   { 
+       id:1,
+       year:'2021-2025',
+       compnayName:'KL University , Guntur',
+       position:'Computer Science & Engineering',
+       marks:'8.7/10 CGPA'
+   },
+   { 
+       id:1,
+       year:'2019-2021',
+       compnayName:'Sri Chaitanya Junior College',
+       position:'Intermediate MPC (BIEAP)',
+       marks:'87/100 Percentage'
+   },
+   { 
+       id:1,
+       year:'2018-2019',
+       compnayName:'Sri Vivekananda Central School',
+       position:'Secondary Education (CBSE)',
+       marks:'80 Percentage'
+   },
+   
 ]
 
 export const portfolio=[
-    {
-        id:1,
-        title:'Food Delivery UI/UX',
-        type:'ui/ux',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
-    },
-    {
-        id:4,
-        title:'Funny Website',
-        type:'website',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
-    },
-    {
-        id:2,
-        title:'Business Listing App',
-        type:'mobile',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png"
-    },
-    {
-        id:3,
-        title:'Food Delivery UI/UX',
-        type:'ui/ux',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
-    },
-
-    
+   {
+       id:1,
+       title:'Video Podcast App',
+       type:'website',
+       desc:"Developed a feature-rich video podcast application using ReactJS for the UI and Node.js for the server side; optimized cloud storage, leading to a 30% decrease in data retrieval times for users and launched an intuitive user interface for video content management, allowing seamless uploads and organization",
+       imageUrl:"https://cdn.prod.website-files.com/615243a00511f95546e9f148/634e26a4e27c303b5b22c3b2_20201023_RadioStationGrew2000-ImageOnly_aa01152f4fd0063441e471d910e0c300_1000.jpeg",
+       link:'https://mosin23.github.io/podcastapp/'
+   },
+   {
+       id:4,
+       title:'Weather Forecast App',
+       type:'website',
+       desc:"Developed a weather forecast application using ReactJS, providing real-time weather updates for every users city with a sleek and responsive user interface. This setup ensures a smooth and intuitive user experience.",
+       imageUrl:"https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/Google-Weather-icon.png",
+       link:'https://mosin23.github.io/ForecastApp/'
+   },
+   {
+       id:2,
+       title:'Banking Application',
+       type:'mobile',
+       desc:"Build an efficient money transfer application using the java springboot and it's included it's various security features",
+       imageUrl:"https://media.licdn.com/dms/image/v2/D5612AQHUzRiGSZ9sXQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693374555867?e=1730937600&v=beta&t=QuCmRClfdvKqClsyXr2PJnZ8YQyA3yOf1AWkl5ka8Jo"
+   },
 ]
 
 export const CompanyImage=[
-    {
-        id:1,
-        imageUrl:cognizantLogo
-    },
-    {
-        id:1,
-        imageUrl:wellsLogo
-    },
-    {
-        id:1,
-        imageUrl:aflacLogo
-    },
-    {
-        id:1,
-        imageUrl:wiuLogo
-    }
+   {
+       id:1,
+       imageUrl:klu
+   },
+   {
+       id:1,
+       imageUrl:klu
+   },
+   {
+       id:1,
+       imageUrl:java
+   },
+   {
+       id:1,
+       imageUrl:klu
+   }
 ]
 
 export const socialNetwork=[
-    {
-        id:1,
-        logo:instagram,
-        url:'https://www.instagram.com/tubeguruji/'
-    },
-    {
-        id:1,
-        logo:youtube,
-        url:'https://www.youtube.com/channel/UC33Tc4FCgd_to314_b2hNTg',
-    },
-    {
-        id:1,
-        logo:linkdin,
-        url:'https://www.linkedin.com/in/rahul-sanap-652920108/'
-    },
-    {
-        id:1,
-        logo:facebook,
-        url:'https://www.facebook.com/rahul.sanap1'
-    },
+   {
+       id:1,
+       logo:linkdin,
+       url:'https://www.linkedin.com/in/mosin23/'
+   },
+   {
+       id:1,
+       logo:"https://icones.pro/wp-content/uploads/2021/06/icone-github-grise.png",
+       url:'https://github.com/mosin23',
+   },
+   {
+       id:1,
+       logo:instagram,
+       url:'https://www.instagram.com/mosinkhan_23'
+   }
 ]

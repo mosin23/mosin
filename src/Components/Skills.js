@@ -9,7 +9,7 @@ const Skills = () => {
     <div className='mt-10' id="skills">
         <div className='flex flex-row justify-center items-center'>
         <img src={skill} className="w-[70px] hover:animate-bounce "/>
-        <h1 className='text-[40px] font-bold'>{AppText.Skills}<span className='text-purple-600'>{AppText.Experties}</span></h1>
+        <h1 className='text-[40px] font-bold'>{AppText.Skills}<span className='text-[#136F63]'>{AppText.Experties}</span></h1>
         </div>
         <div className='flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 '>
           <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>
@@ -31,6 +31,7 @@ const Skills = () => {
                             <div>
                                 <h3 className='font-bold w-full'>{item.position}</h3>
                                 <h3 className='font-thin text-[15px] text-gray-400'>{item.compnayName}</h3>
+                                <h3 className='font-thin text-[15px] text-gray-400'>{item.marks}</h3>
 
                                 </div>
                         </div>

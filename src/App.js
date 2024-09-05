@@ -1,4 +1,3 @@
-
 import './App.css';
 import {NavBar,Home, Portfolio} from './Components';
 import AboutMe from './Components/AboutMe';

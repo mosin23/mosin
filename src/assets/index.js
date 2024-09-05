@@ -3,53 +3,50 @@ import homeImage from './homeImage.png'
 import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
-
-import angular from './angular.png'
-import ionic from './ionic.png'
-import firebase from './firebase.png'
-import typescript from './typescript.png'
-import mysql from './mysql.png'
+import gcloud from './gcloud.png'
+import html from './html.png'
 import nodejs from './nodejs.png'
-
-import gitlab from './gitlab.jpg'
-import android from './android.png'
+import mongodb from './mongo1.png'
 import react from './react.png'
-import wave from './wave.svg'
 import robo from './robo.png'
-import cognizantLogo from './cognizantLogo.png'
-import wellsLogo from './wells.png'
-import aflacLogo from './aflac.png'
-import wiuLogo from './wiu.png'
 import contactusbg from './contactusbg.png'
-import phone from './phone.png'
-import youtube from './youtube.png'
+import wave from './wave.svg'
 import instagram from './Instagram.png'
-import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
-
-
-
-
-
-
-
-
-
+import java from './java.png'
+import C from './c.png'
+import python from './python.png'
+import springboot from './springboot.png'
+import mysql from './mysql.png'
+import github from './github.png'
+import boot from './boot.png'
+import aws from './aws.png'
+import postman from './postman.png'
+import ex from './ex.png'
+import phone from './phone.png'
+import klu from './klu.png'
 export {
-    logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,aflacLogo,wiuLogo,
+    logo,nodejs,contactusbg,phone,instagram,linkdin,
+    homeImage,
     book,
     laptop,
     skill,
-    angular,
-    typescript,
-    android,
-    gitlab,
-    ionic,
-    firebase,
-    mysql,
     react,
+    robo,
+    java,
+    C,
+    python,
+    springboot,
+    mysql,
+    mongodb,
+    html,
+    github,
+    boot,
+    aws,
+    gcloud,
     wave,
-    robo
+    postman,
+    ex,
+    klu
 
 }
