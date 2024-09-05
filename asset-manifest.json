@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mosin/static/css/main.ad602e77.css",
+    "main.css": "/mosin/static/css/main.124df3f1.css",
     "main.js": "/mosin/static/js/main.ae741bff.js",
     "static/media/homeImage.png": "/mosin/static/media/homeImage.3d95f6590f70693b6ba6.png",
     "static/media/contactusbg.png": "/mosin/static/media/contactusbg.763a3c4a9285409abd28.png",
@@ -21,11 +21,11 @@
     "static/media/ex.png": "/mosin/static/media/ex.71e63a1d04588d0ffe9b.png",
     "index.html": "/mosin/index.html",
     "static/media/wave.svg": "/mosin/static/media/wave.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.ad602e77.css.map": "/mosin/static/css/main.ad602e77.css.map",
+    "main.124df3f1.css.map": "/mosin/static/css/main.124df3f1.css.map",
     "main.ae741bff.js.map": "/mosin/static/js/main.ae741bff.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad602e77.css",
+    "static/css/main.124df3f1.css",
     "static/js/main.ae741bff.js"
   ]
 }
